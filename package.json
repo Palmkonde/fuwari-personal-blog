@@ -7,7 +7,7 @@
     "start": "astro dev",
     "check": "astro check",
     "build": "astro build && pagefind --site dist",
-    "preview": "pnpm run build && wrangler dev",
+    "preview": "astro preview",
     "astro": "astro",
     "type-check": "tsc --noEmit --isolatedDeclarations",
     "new-post": "node scripts/new-post.js",
